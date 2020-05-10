@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Guillaume Techer, dévellopeur d'application web.">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="manifest" href="/icons/site.webmanifest">
+    <title>Guillaume Techer</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="./public/main.css">
+
+  </head>
+<body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper light-blue darken-3">
+        <a href="#!" class="brand-logo center-align">Guillaume TECHER</a>
+        <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#about-me">A propos de moi</a></li>
+          <li><a href="#parcours">Parcours</a></li>
+          <li><a href="#technologies">Technologies</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <ul class="sidenav" id="mobile-menu">
+    <li><a class="sidenav-close" href="#about-me">A propos de moi</a></li>
+    <li><a class="sidenav-close" href="#parcours">Parcours</a></li>
+    <li><a class="sidenav-close" href="#technologies">Technologies</a></li>
+    <li><a class="sidenav-close" href="#portfolio">Portfolio</a></li>
+    <li><a class="sidenav-close" href="#contact">Contact</a></li>
+  </ul>
+
+  <header class="light-blue darken-3" id="wave">
+    <div class="container">
+      <div class="row">
+        <h1 class="col s12 white-text center-align">Guillaume TECHER</h1>
+      </div>
+      <div class="row">
+        <h3 class="col s12 white-text center-align ">
+          Développeur d'application web
+        </h3>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <section class="section scrollspy" id="about-me">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h4 class="center-align">A propos de moi</h4>
+          </div>
+          <div class="col s12 m4 avatar">
+            <img class="responsive-img right" src="/img/myAvatar2.png" alt="">
+          </div>
+          <!-- <blockquote class="col s12 m8">Passioné d'informatique et de photographies, je suis actuellement un apprenant de la formation développeur Web chez simplon réunion.</blockquote> -->
+          <div class="col s12 m8">
+            <blockquote class="flow-text">Passioné d'informatique, je réalise des applications web 
+              et web mobiles performantes qui respectent les standards en matière de 
+              <a href="https://checklists.opquast.com/fr/" target="_blank" rel="noopener noreferrer">qualités-web</a> 
+              et de <a href="https://www.cnil.fr/fr/securite-securiser-les-sites-web" target="_blank" rel="noopener noreferrer">sécurité informatique</a>...
+            </blockquote>
+
+            
+            <form class="center-align" id="btn_cv" target="_blank" action="pdf/CV-Guillaume-Techer.pdf">
+              <button class="waves-effect waves-light btn-large"><i class="material-icons left">insert_drive_file</i>Voir mon CV</button>
+            </form>
+
+          </div>
+        </div>
+
+        
+      </div>
+
+
+
+    </section>
+    <div class="divider"></div>
+
+    <section class="section scrollspy" id="parcours">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h4 class="center-align">Mon parcours</h4>
+          </div>
+
+          <div class="col s12">
+            <div class="timeline">
+              <div class="timeline__wrap">
+                <div class="timeline__items">
+                  <div class="timeline__item">
+                    <div class="timeline__content">
+                      <div class="flow-text">Développeur d'application web</div>
+                      <div class="divider"></div>
+                      <div class="blue-grey-text lighten-4 flow-text">2019 - en cours</div>
+                      <div><a title="Site web de Zotcar" href="https://www.zotcar.com/" target="_blank" rel="noopener noreferrer">Zotcar</a></div>
+                    </div>
+                  </div>
+                  <div class="timeline__item">
+                    <div class="timeline__content">
+                      <div class="flow-text">Certification Google - Marketing numérique</div>
+                      <div class="divider"></div>
+                      <div class="blue-grey-text lighten-4 flow-text">2019</div>
+                      <div>
+                        <a href="https://learndigital.withgoogle.com/ateliersnumeriques/course/digital-marketing" title="Principes fondamentaux du marketing numérique" target="_blank" rel="noopener noreferrer">Google.com</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline__item">
+                    <div class="timeline__content">
+                      <div class="flow-text">Certification Opquast - niveau avancé</div>
+                      <div class="divider"></div>
+                      <div class="blue-grey-text lighten-4 flow-text">2019</div>
+                      <a href="http://www.opquast.com" title="Site web de Opquast" target="_blank" rel="noopener noreferrer">opquast.com</a>
+                    </div>
+                  </div>
+                  <div class="timeline__item">
+                    <div class="timeline__content">
+                      <div class="flow-text">Coder et déployer une application web</div>
+                      <div class="divider"></div>
+                      <div class="blue-grey-text lighten-4 flow-text">2019</div>
+                      <div><a title="Site de simplon reunion" href="https://simplon.co/" target="_blank" rel="noopener noreferrer">Simplon Reunion</a></div>
+                    </div>
+                  </div>
+                  <div class="timeline__item">
+                    <div class="timeline__content">
+                      <div class="flow-text">Certification WordPress</div>
+                      <div class="divider"></div>
+                      <div class="blue-grey-text lighten-4 flow-text">2018</div>
+                      <div><a title="Site de simplon reunion" href="https://simplon.co/" target="_blank" rel="noopener noreferrer">Simplon Reunion</a></div>
+                    </div>
+                  </div>
+                  <div class="timeline__item">
+                    <div class="timeline__content">
+                      <div class="flow-text">Technicien Informatique</div>
+                      <div class="divider"></div>
+                      <div class="blue-grey-text lighten-4 flow-text">2015</div>
+                      <div>Axiome</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="divider"></div>
+
+    <section class="section scrollspy" id="technologies">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+
+            <h4 class="center-align">Technologies</h4>
+            <ul class="collapsible expandable">
+              <li class="active">
+                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_down</i>Languages/balisages</div>
+                <div class="collapsible-body">
+                  <ul class="techno-list">
+                    <li>
+                      <div class="card hoverable">
+                          <img data-src="img/logos/es6.png" class="responsive-img lazy" alt="es6" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                          <div class="center-align"><b>Es6</b></div>
+                        </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                          <img class="responsive-img lazy" data-src="img/logos/JavaScript.png" alt="JavaScript" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                          <div class="center-align"><b>Js</b></div>
+                        </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                          <img class="responsive-img lazy" data-src="img/logos/HTML5.png" alt="HTML5" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                          <div class="center-align"><b>Html5</b></div>
+                        </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                          <img class="responsive-img lazy" data-src="img/logos/css3-logo.png" alt="css3" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                          <div class="center-align"><b>Css3</b></div>
+                        </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                          <img class="responsive-img lazy" data-src="img/logos/PHP.png" alt="PHP" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                          <div class="center-align"><b>Php</b></div>
+                        </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                          <img class="responsive-img lazy" data-src="img/logos/bash.png" alt="bash" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                          <div class="center-align"><b>Bash</b></div>
+                        </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_down</i>Préprocesseurs</div>
+                <div class="collapsible-body">
+                  <ul class="techno-list">
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="img/logos/Coffeescript.png" alt="Coffeescript">
+                        <div class="center-align"><b>CoffeeScript</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" data-src="img/logos/sass.png" alt="sass" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="center-align"><b>Sass</b></div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_down</i>Frameworks/bibliothèques</div>
+                <div class="collapsible-body">
+                  <ul class="techno-list"> 
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" data-src="img/logos/Symfony.png" alt="Symfony" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="center-align"><b>Symfony</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" data-src="img/logos/expressJS.png" alt="expressJS" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="center-align"><b>Express</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" data-src="img/logos/laravel.png" alt="laravel" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="center-align"><b>Laravel</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" data-src="img/logos/Bootstrap.png" alt="Bootstrap" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="center-align"><b>Bootstrap</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" data-src="img/logos/vuejs.png" alt="vuejs" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="center-align"><b>Vue js</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" data-src="img/logos/jquery.png" alt="jquery" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="center-align"><b>Jquery</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" data-src="img/logos/react.png" alt="react" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="center-align"><b>React</b></div>
+                      </div>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_down</i>Outils</div>
+                <div class="collapsible-body">
+                  <ul class="techno-list">
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" data-src="img/logos/Git.png" alt="Git" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="center-align"><b>Git</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" data-src="img/logos/node-js.png" alt="node-js" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="center-align"><b>Node Js</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" data-src="img/logos/Npm.png" alt="Npm" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="center-align"><b>Npm</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" data-src="img/logos/vscode.png" alt="vscode" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="center-align"><b>VsCode</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" data-src="img/logos/grunt.png" alt="grunt" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="center-align"><b>Grunt</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" data-src="img/logos/postman.png" alt="postman" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="center-align"><b>PostMan</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" data-src="img/logos/WordPress.png" alt="WordPress" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="center-align"><b>WordPress</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" data-src="img/logos/methode_agile1.png" alt="methode agile" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="center-align"><b>Methode Agile</b></div>
+                      </div>
+                    </li>
+    
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_down</i>Bases de données</div>
+                <div class="collapsible-body">
+                  <ul class="techno-list">
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" data-src="img/logos/MySQL.png" alt="MySQL" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="center-align"><b>Mysql</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" data-src="img/logos/mongodb.png" alt="mongodb" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="center-align"><b>MongoDB</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card hoverable">
+                        <img class="responsive-img lazy" data-src="img/logos/Postgresql.png" alt="Postgresql" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="center-align"><b>Postgresql</b></div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="divider"></div>
+
+    <section class="section scrollspy" id="portfolio">
+      <h4 class="center-align">Portfolio</h4>
+      <div class="container">
+        <div class="row">
+          <div class="col m6 l4">
+
+            <div class="card sticky-action">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator lazy" data-src="img/smart-url.png" alt="Smart-Url" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                <div class="divider"></div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Smart-Url<i class="material-icons right">more_vert</i></span>
+                
+              </div>
+              <div class="card-action">
+                <a class="tooltipped" data-position="top" data-tooltip="Ouvrir Smart-url dans un nouvel onglet" href="https://smart-url.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visiter</a>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Smart-Url<i class="material-icons right">close</i></span>
+                <p>Raccourcis les urls et génére le qr code, redirige vers le lien de destination.</p>
+                <div class="row">
+                  <div class="col s12">
+                    <ul>
+                      <li>
+                        <span class="valign-wrapper"><i class="material-icons green-text">check</i>Bootstrap</span>
+                      </li>
+                      <li>
+                        <span class="valign-wrapper"><i class="material-icons green-text">check</i>Node js/express</span>
+                      </li>
+                      <li>
+                        <span class="valign-wrapper"><i class="material-icons green-text">check</i>Jquery</span>
+                      </li>
+                    </ul>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+                      
+          </div>
+          <div class="col m6 l4">
+
+            <div class="card sticky-action">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator lazy" data-src="img/synth-app.png" alt="Synth-app" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                <div class="divider"></div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Synth-app<i class="material-icons right">more_vert</i></span>
+                
+              </div>
+              <div class="card-action">
+                <a class="tooltipped" data-position="top" data-tooltip="Ouvrir Synth-app dans un nouvel onglet" href="https://guillaume97490.github.io/synth-app/" target="_blank" rel="noopener noreferrer">Visiter</a>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Synth-app<i class="material-icons right">close</i></span>
+                <p>Synthétiseur, enregistre et rejoue une séquence, réglage de l'enveloppe et de l'oscilateur </p>
+                <div class="row">
+                  <div class="col s12">
+                    <ul>
+                      <li>
+                        <span class="valign-wrapper"><i class="material-icons green-text">check</i>Javascript / Es6</span>
+                      </li>
+                      <li>
+                        <span class="valign-wrapper"><i class="material-icons green-text">check</i>Bootstrap</span>
+                      </li>
+                      <li>
+                        <span class="valign-wrapper"><i class="material-icons green-text">check</i>Jquery</span>
+                      </li>
+                    </ul>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+                      
+          </div>
+          <div class="col m6 l4">
+
+            <div class="card sticky-action">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator lazy" data-src="img/search-car.png" alt="Search-car" src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                <div class="divider"></div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Search-car<i class="material-icons right">more_vert</i></span>
+                
+              </div>
+              <div class="card-action">
+                <a class="tooltipped" data-position="top" data-tooltip="Ouvrir Search-car dans un nouvel onglet" href="https://search-car.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visiter</a>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Search-car<i class="material-icons right">close</i></span>
+                <p>Affiche les caracteristiques, présente les donnée en graphiques et historique dynamique des voitures recherchées</p>
+                <div class="row">
+                  <div class="col s12">
+                    <ul>
+                      <li>
+                        <span class="valign-wrapper"><i class="material-icons green-text">check</i>Node js / Express</span>
+                      </li>
+                      <li>
+                        <span class="valign-wrapper"><i class="material-icons green-text">check</i>Bootstrap</span>
+                      </li>
+                      <li>
+                        <span class="valign-wrapper"><i class="material-icons green-text">check</i>Jquery</span>
+                      </li>
+                    </ul>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+                      
+          </div>
+        </div>
+        <div class="row center-align">
+          <a class="waves-effect waves-light btn-large grey darken-1" href="https://github.com/Guillaume97490" target="_blank" rel="noopener noreferrer">
+            <div class="valign-wrapper">
+              <span class="more-projects">Voir d'autres projets</span>
+              <svg class="icon icon-github" aria-hidden="true">
+                <path d="M16 0.396c-8.84 0-16 7.164-16 16 0 7.071 4.584 13.067 10.94 15.18 0.8 0.151 1.093-0.344 1.093-0.769 0-0.38-0.013-1.387-0.020-2.72-4.451 0.965-5.389-2.147-5.389-2.147-0.728-1.847-1.78-2.34-1.78-2.34-1.449-0.992 0.112-0.972 0.112-0.972 1.607 0.112 2.451 1.648 2.451 1.648 1.427 2.447 3.745 1.74 4.66 1.331 0.144-1.035 0.556-1.74 1.013-2.14-3.553-0.4-7.288-1.776-7.288-7.907 0-1.747 0.62-3.173 1.647-4.293-0.18-0.404-0.72-2.031 0.14-4.235 0 0 1.34-0.429 4.4 1.64 1.28-0.356 2.64-0.532 4-0.54 1.36 0.008 2.72 0.184 4 0.54 3.040-2.069 4.38-1.64 4.38-1.64 0.86 2.204 0.32 3.831 0.16 4.235 1.020 1.12 1.64 2.547 1.64 4.293 0 6.147-3.74 7.5-7.3 7.893 0.56 0.48 1.080 1.461 1.080 2.96 0 2.141-0.020 3.861-0.020 4.381 0 0.42 0.28 0.92 1.1 0.76 6.401-2.099 10.981-8.099 10.981-15.159 0-8.836-7.164-16-16-16z"></path>
+              </svg>
+
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <div class="divider"></div>
+
+    <section class="section scrollspy" id="contact">
+      <h4 class="center-align">Contact</h4>
+      <div class="row">
+        <div class="container">
+          
+
+          <form id="contact-form" class="col s12 l6 push-l6" action="https://api-portfolio-contact-mail.herokuapp.com/" method="POST">
+            <div class="input-field col s6">
+              <input id="first-name" type="text" class="field-form" name="first_name" required>
+              <label for="first-name">Prénom</label>
+              <span class="helper-text" data-error="Ce champ est requis" data-success=""></span>
+            </div>
+
+            <div class="input-field col s6">
+              <input id="last-name" type="text" class="field-form" name="last_name" required>
+              <label for="last-name">Nom</label>
+              <span class="helper-text" data-error="Ce champ est requis" data-success=""></span>
+            </div>
+          
+            <div class="input-field col s12">
+              <input id="email" type="email" class="field-form" name="email" required>
+              <label for="email">Email</label>
+              <span class="helper-text" data-error="Email invalide" data-success=""></span>
+            </div>
+
+            <div class="input-field col s12">
+              <textarea id="message" name="message" class="materialize-textarea field-form" required></textarea>
+              <label for="message">Message</label>
+              <span class="helper-text" data-error="Ce champ est requis" data-success=""></span>
+            </div>
+
+            <div class="col s12">
+              <div id="mail-load" class="preloader-wrapper small active hide scale-transition right">
+                <div class="spinner-layer spinner-green-only">
+                  <div class="circle-clipper left">
+                    <div class="circle"></div>
+                  </div><div class="gap-patch">
+                    <div class="circle"></div>
+                  </div><div class="circle-clipper right">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+              </div>
+  
+              <div id="send-fail" class="left valign-wrapper hide">
+                <i class="material-icons check-send-fail red-text scale-transition scale-out">warning</i>
+                <span class="red-text text-send-fail scale-transition scale-out">Envoi échoué...</span>
+              </div>
+
+              <div id="send-done" class="valign-wrapper right hide">
+                <span class="green-text text-send-done scale-transition scale-out">Envoi réussi !</span>
+                <i class="material-icons check-send-done green-text scale-transition scale-out">done</i>
+              </div>
+
+  
+              <button id="contact-form-submit-btn" class="btn waves-effect waves-light right" type="submit" name="action">Envoyer
+                <i class="material-icons right">send</i>   
+              </button>
+
+            </div>
+
+          </form>
+          <div class="col s12 l6 pull-l6 contact-info valign-wrapper">
+            <h4 class="center-align grey-text text-darken-1 name-in-contact">Guillaume TECHER</h4>
+            
+            <div class="row">
+              <div class="col s6 center-align">
+                <a class="tooltipped right grey-text text-darken-4" data-position="top" data-tooltip="Ouvrir ma page Github dans un nouvel onglet" href="https://github.com/Guillaume97490" target="_blank" rel="noopener noreferrer">
+                  <svg class="icon" aria-hidden="true">
+                    <path d="M16 0.396c-8.84 0-16 7.164-16 16 0 7.071 4.584 13.067 10.94 15.18 0.8 0.151 1.093-0.344 1.093-0.769 0-0.38-0.013-1.387-0.020-2.72-4.451 0.965-5.389-2.147-5.389-2.147-0.728-1.847-1.78-2.34-1.78-2.34-1.449-0.992 0.112-0.972 0.112-0.972 1.607 0.112 2.451 1.648 2.451 1.648 1.427 2.447 3.745 1.74 4.66 1.331 0.144-1.035 0.556-1.74 1.013-2.14-3.553-0.4-7.288-1.776-7.288-7.907 0-1.747 0.62-3.173 1.647-4.293-0.18-0.404-0.72-2.031 0.14-4.235 0 0 1.34-0.429 4.4 1.64 1.28-0.356 2.64-0.532 4-0.54 1.36 0.008 2.72 0.184 4 0.54 3.040-2.069 4.38-1.64 4.38-1.64 0.86 2.204 0.32 3.831 0.16 4.235 1.020 1.12 1.64 2.547 1.64 4.293 0 6.147-3.74 7.5-7.3 7.893 0.56 0.48 1.080 1.461 1.080 2.96 0 2.141-0.020 3.861-0.020 4.381 0 0.42 0.28 0.92 1.1 0.76 6.401-2.099 10.981-8.099 10.981-15.159 0-8.836-7.164-16-16-16z"></path>
+                  </svg>
+                </a>
+              </div>
+
+              <div class="col s6 center-align">
+                <a class="tooltipped left" data-position="top" data-tooltip="Ouvrir ma page Likedin dans un nouvel onglet" href="https://www.linkedin.com/in/guillaume-techer/" target="_blank" rel="noopener noreferrer">
+                  <svg class="icon" aria-hidden="true">
+                    <path fill="#0077b5" style="fill: var(--color1, #0077b5)" d="M27.263 27.269h-4.739v-7.425c0-1.771-0.036-4.049-2.469-4.049-2.471 0-2.848 1.927-2.848 3.919v7.556h-4.739v-15.269h4.552v2.081h0.061c0.636-1.2 2.183-2.467 4.493-2.467 4.801 0 5.689 3.16 5.689 7.273zM7.116 9.911c-1.525 0-2.751-1.235-2.751-2.753 0-1.517 1.227-2.751 2.751-2.751 1.52 0 2.752 1.233 2.752 2.751 0 1.519-1.233 2.753-2.752 2.753zM9.492 27.269h-4.752v-15.269h4.752zM29.633 0h-27.272c-1.305 0-2.361 1.032-2.361 2.305v27.389c0 1.275 1.056 2.305 2.361 2.305h27.268c1.304 0 2.371-1.031 2.371-2.305v-27.389c0-1.273-1.067-2.305-2.371-2.305z"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="row">
+              <form class="center-align" id="btn_cv" target="_blank" action="pdf/CV-Guillaume-Techer.pdf">
+                <button class="waves-effect waves-light btn-large grey darken-1"><i class="material-icons left">insert_drive_file</i>Télécharger mon CV</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <template>
+    <div class="validate invalid"></div>
+    <div class="hiddendiv common"></div>
+    <div class="material-tooltip"></div>
+    <div class="waves-ripple"></div>
+    <div class="scale-transition scale-out"></div>
+  </template>
+
+  <footer class="page-footer light-blue darken-3">
+    
+    <div class="footer-copyright">
+      <div class="container">
+      © 2020 Guillaume TECHER
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/timeline.min.js"></script>
+  <script src="js/three.r95.min.js"></script>
+  <script src="js/vanta.waves.min.js"></script>
+  <script src="public/main.js"></script>
+
+</body>
+</html>
